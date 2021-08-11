@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rahul.covid19">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/corona_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/corona_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".District_Affected"></activity>
+        <activity android:name=".State_Affected" />
+        <activity android:name=".detail_country" />
+      <!--
+        <activity android:name=".Affected_Detail" />
+        <activity android:name=".Country_Affected_Detail" />
+       -->
+        <activity android:name=".Countries" />
+        <activity android:name=".detail_symptom" />
+        <activity android:name=".precaution_viewAll" />
+        <activity android:name=".symptoms_viewAll" />
+        <activity android:name=".More_info" />
+        <activity android:name=".Splash_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

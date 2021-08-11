@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#324554"
+    tools:context=".Countries">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#324554"
+        android:layout_margin="10dp"
+        >
+
+
+    <EditText
+        android:id="@+id/Search_Country"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        android:layout_marginTop ="30dp"
+        android:hint="Search"
+        android:maxLines = "1"
+        android:layout_margin ="15dp"
+        android:background="@drawable/roundtext"
+        android:drawablePadding="15dp"
+        android:paddingLeft = "10dp"
+        android:drawableLeft = "@drawable/search_icon"
+        />
+    <ListView
+        android:id="@+id/country_list"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/roundtext"
+
+        android:layout_margin ="15dp"
+
+        android:layout_below = "@+id/Search_Country"
+
+        >
+    </ListView>
+
+    </LinearLayout>
+
+</LinearLayout>

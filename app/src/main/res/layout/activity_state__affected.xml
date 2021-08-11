@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#324554"
+    tools:context=".State_Affected">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#324554"
+        android:layout_margin="10dp"
+        >
+
+
+    <EditText
+        android:id="@+id/Search_state"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop ="30dp"
+        android:hint="Search"
+        android:maxLines = "1"
+        android:layout_margin ="15dp"
+        android:background="@drawable/roundtext"
+        android:drawablePadding="15dp"
+        android:paddingLeft = "10dp"
+        android:drawableLeft = "@drawable/search_icon"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="India State"
+        android:textColor="@color/colorWhite"
+        android:gravity="center"
+        android:textStyle="bold"
+        >
+
+
+    </TextView>
+        <ListView
+        android:id="@+id/state_list"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/round_list"
+        android:layout_margin ="15dp"
+        android:layout_below = "@+id/Search_Country"
+
+        >
+
+
+    </ListView>
+
+    </LinearLayout>
+</LinearLayout>

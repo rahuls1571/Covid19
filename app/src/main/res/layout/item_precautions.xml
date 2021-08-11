@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:layout_margin = "10dp"
+    android:background ="@drawable/layout_shape_round"
+    android:padding = "10dp"
+    >
+
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding = "10dp"
+        android:background = "@drawable/roundtext"
+        >
+
+        <ImageView
+            android:id="@+id/Precaution_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src = "@drawable/cover"
+            android:layout_margin = "10dp"
+            />
+
+    </RelativeLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity = "center"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:id="@+id/textPrecaution"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text ="cover"
+            android:textSize ="15dp"
+            android:textColor = "@color/colorBlack"
+            android:textStyle ="bold"
+            />
+        <TextView
+            android:id="@+id/textPrecautionDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text ="cover"
+            android:textSize ="12dp"
+            android:textColor = "@color/colorBlack"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

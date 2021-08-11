@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background ="#222222"
+    tools:context=".Splash_Screen">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text ="COVID-19"
+        android:textSize ="25dp"
+        android:gravity="center"
+        android:textColor = "#ffffff"
+        android:textStyle = "bold"
+        />
+    <TextView
+        android:layout_marginTop ="90dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.
+Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment. "
+        android:textColor = "#ffffff"
+        android:textSize="14dp"
+        android:padding="10dp"
+        android:textAlignment = "center"
+        android:gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/corona_icon">
+
+        </ImageView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:background = "@drawable/roundtext"
+        android:gravity ="center"
+        android:layout_alignParentBottom ="true"
+        android:layout_margin = "10dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text ="  Get Started"
+            android:textSize ="18dp"
+            android:layout_weight="1"
+            android:layout_gravity = "center"
+            android:textColor = "#222222"
+            android:textStyle = "bold"
+            />
+        <ImageButton
+            android:id="@+id/bt_getstarted"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background ="#ffffff"
+            android:textStyle = "bold"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:src="@drawable/ic_arrow"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

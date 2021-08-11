@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_margin ="10dp"
+    android:background ="#ffffff"
+    android:padding ="10dp"
+    android:layout_gravity="center"
+    tools:context=".More_info">
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text ="Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.
+Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment."
+                android:gravity = "center"
+                android:textSize ="17dp"
+                android:textColor = "@color/colorBlack"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text ="HOW IT SPREADS"
+                android:gravity = "center"
+                android:textSize ="20dp"
+                android:textColor = "#0710A6"
+                android:textStyle ="bold"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text ="According to the Centers for Disease Control and Prevention, COVID-19 is spread mainly from person-to-person, usually via close contact (within six feet). That could be via physical contact, like handshaking (if someone's hands are contaminated with the virus) or touching contaminated surfaces.
+A sneezing or coughing person will cover their mouth, get it all over their hand, and then touch something that you then touch,"
+                android:gravity = "center"
+                android:textSize ="17dp"
+                android:textColor = "@color/colorBlack"
+
+                />
+            <Button
+                android:id="@+id/Learn_more"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginTop ="10dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text ="Learn More"
+                android:textSize ="12sp"
+                android:textStyle = "bold"
+                android:textColor = "#ffffff"
+                android:background="#424BDD"
+                />
+
+        </LinearLayout>
+
+
+
+
+</LinearLayout>

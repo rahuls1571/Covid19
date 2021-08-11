@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#324554"
+    android:orientation="horizontal"
+    tools:context=".detail_country">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#324554"
+        >
+        <TextView
+            android:id="@+id/country_name"
+            android:layout_marginTop = "20dp"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Country"
+            android:textStyle = "bold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor ="#ffffff"
+            >
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation = "horizontal"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text ="Cases"
+                android:textSize ="20sp"
+                android:layout_weight ="1"
+                android:textColor = "#ffffff"
+                android:textStyle ="bold"
+                 />
+
+            <TextView
+                android:id="@+id/cases"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text ="0"
+                android:textSize ="20sp"
+                android:textColor = "#ffffff"
+                 />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation = "horizontal"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text ="Today Cases"
+                android:textSize ="20sp"
+                android:layout_weight ="1"
+                android:textColor = "#ffffff"
+                android:textStyle ="bold"
+                />
+
+            <TextView
+                android:id="@+id/today_cases"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text ="0"
+                android:textSize ="20sp"
+                android:textColor = "#ffffff"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation = "horizontal"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text ="Deaths"
+                android:textSize ="20sp"
+                android:layout_weight ="1"
+                android:textColor = "#ffffff"
+                android:textStyle ="bold"
+                />
+
+            <TextView
+                android:id="@+id/deaths"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text ="0"
+                android:textSize ="20sp"
+                android:textColor = "#ffffff"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation = "horizontal"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text ="Today Deaths"
+                android:textSize ="20sp"
+                android:layout_weight ="1"
+                android:textColor = "#ffffff"
+                android:textStyle ="bold"
+                />
+
+            <TextView
+                android:id="@+id/today_deaths"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text ="0"
+                android:textSize ="20sp"
+                android:textColor = "#ffffff"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation = "horizontal"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text ="Recovered"
+                android:textSize ="20sp"
+                android:layout_weight ="1"
+                android:textColor = "#ffffff"
+                android:textStyle ="bold"
+                />
+
+            <TextView
+                android:id="@+id/recovered"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text ="0"
+                android:textSize ="20sp"
+                android:textColor = "#ffffff"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

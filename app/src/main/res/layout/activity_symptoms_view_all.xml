@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background ="#324554"
+    tools:context=".symptoms_viewAll">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:text ="Symptoms"
+       android:textSize ="20sp"
+       android:textStyle ="bold"
+       android:textColor="#ffffff"
+       android:layout_marginTop ="20dp"
+
+       >
+
+   </TextView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id = "@+id/symptoms_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation = "vertical"
+        android:layout_marginTop ="10dp"
+        tools:itemCount="3"
+        tools:listitem="@layout/item_symptoms"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        />
+</LinearLayout>
