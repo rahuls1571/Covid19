@@ -28,13 +28,38 @@ dependencies {
 
 Custom Covid19 Library : 
 
-Use can Also used My Custom Covid19 Library
+In this, u don't require to write JSON code u have simply write :
 {
-    
-        implementation 'com.github.rahuls1571:Covid19_API:1.0.0'
 
+	Covid19 covid = new Covid19(this,this);
+
+	@Override
+
+	public void OnStateDataReceived(ArrayList<State> states){
+
+	String State_Name = states.get(0).getSTATE_NAME(); }
 }
 
+Setp 1 : Add it in your root build.gradle at the end of repositories :
+
+allprojects
+{
+	
+	repositories
+		{
+			...
+			maven { url 'https://jitpack.io' }
+		}
+}
+  
+Step 2: Add the dependency :
+
+	dependencies
+ 	 	{
+	        implementation 'com.github.rahuls1571:Covid19_API:1.0.0'
+		}
+	
+# App Image : 
 
 <p align="center">
 <img align="center" width="500" height="1000" src="https://user-images.githubusercontent.com/46783288/131074628-5f052da5-d593-41b8-9df9-22c4584d5660.jpg">
