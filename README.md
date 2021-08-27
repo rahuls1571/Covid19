@@ -8,8 +8,33 @@ In This Application I am Using covid19india.org API to fetch country and state w
     2). Here Data Update Every 1hr per day.
     3). In-State u can fetch State name, active cases, recovered cases, confirmed, death cases Data.
     4). In-Countries u can fetch Flags, names, country cases, Today cases, death cases, today death cases, recovered cases Data.
+    5). here I am Using volley library to fetch covid19 data.
+    
+}
+
+dependencies {
+
+    // CardView
+    implementation 'androidx.cardview:cardview:1.0.0'
+    // Recyclerview
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    // Volley
+    implementation 'com.android.volley:volley:1.1.0'
+    // Glide
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
 
 }
+
+Custom Covid19 Library : 
+
+Use can Also used My Custom Covid19 Library
+{
+    
+        implementation 'com.github.rahuls1571:Covid19_API:1.0.0'
+
+}
+
 
 <p align="center">
 <img align="center" width="500" height="1000" src="https://user-images.githubusercontent.com/46783288/131074628-5f052da5-d593-41b8-9df9-22c4584d5660.jpg">
