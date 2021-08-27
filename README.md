@@ -2,6 +2,14 @@
 
 In This Application I am Using covid19india.org API to fetch country and state wise covid data.
 
+{
+
+    1). Covid State(Only contain India state data ) and Countries Data.
+    2). Here Data Update Every 1hr per day.
+    3). In-State u can fetch State name, active cases, recovered cases, confirmed, death cases Data.
+    4). In-Countries u can fetch Flags, names, country cases, Today cases, death cases, today death cases, recovered cases Data.
+
+}
 
 <p align="center">
 <img align="center" width="500" height="1000" src="https://user-images.githubusercontent.com/46783288/131074628-5f052da5-d593-41b8-9df9-22c4584d5660.jpg">
